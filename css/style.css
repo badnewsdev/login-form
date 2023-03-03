@@ -1,4 +1,94 @@
 body {
+  background: rgb(251,63,206);
+  background: radial-gradient(circle, rgba(251,63,206,1) 0%, rgba(82,70,252,1) 100%);	
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  padding-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: line;
+  align-items: center;
+ 
+  
+}
+
+.login-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.login-button:hover {
+  background-color: #5246fc;
+}
+
+.register-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.register-button:hover {
+  background-color: #2980b9;
+}
+.forget{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-align: center;
+	align-items: center;
+	margin-top: 5px;
+}
+footer{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-size: 10px;
+	padding-top: 20px;
+}body {
   background-color: black;
 }
 
@@ -49,7 +139,7 @@ input {
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 10px 50px;
+  padding: 10px 55px;
   cursor: pointer;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -65,7 +155,7 @@ input {
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 10px 50px;
+  padding: 10px 55px;
   cursor: pointer;
   margin-bottom: 10px;
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
@@ -82,6 +172,26 @@ input {
 }
 footer{
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-	font-size: 10px;
-	padding-top: 20px;
+	text-align: center;
+	align-items: center;
+	margin-top: 5px;
 }
+i{
+	padding: 10px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+.textuser{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	align-items: center;
+}
+.textpw{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	align-items: center;
+}
+.outher{
+	text-align: center;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	align-items: center;
+	font-size: 15px;
+}
+
